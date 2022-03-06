@@ -21,7 +21,7 @@ console.log("jff")
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
 });
-app.use(express.static(path.resolve(__dirname, '../pizzapp/build')));
+app.use(express.static(path.resolve(__dirname, '../build')));
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '../pizzapp/build', 'index.html'));
+  res.sendFile(path.resolve(__dirname, '../build', 'index.html'));
 });
