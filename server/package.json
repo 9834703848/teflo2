@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "node app.js",
-    "build": "cd pizzapp && npm install && npm run build"
+    "build": "cd ../ && npm install && npm run build"
   },
   "engines": {
     "node": "your-node-version"
