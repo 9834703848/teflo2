@@ -46,12 +46,12 @@
   "main": "tailwind.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/9834703848/Edvora_internship.git"
+    "url": "git+https://github.com/9834703848/teflo2"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/9834703848/Edvora_internship/issues"
+    "url": "https://github.com/9834703848/teflo2/issues"
   }
 }

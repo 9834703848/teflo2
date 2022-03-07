@@ -17,7 +17,7 @@ app.get("/api", async (req, res) => {
 
 
 });
-console.log("jff")
+
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
 });
